@@ -8,7 +8,7 @@ public class Main {
         order1.order(1, 23, 230, "02/10/2020", true);
 
         Product product1 = new Product();
-        product1.product();
+        product1.product(1, 45, "Телевизор", "Samsung", 20, true);
 
         Stock stock1 = new Stock();
         stock1.stock(1, 1000, true);
